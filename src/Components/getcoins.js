@@ -20,6 +20,7 @@ async function getdata(){
   }
   catch(error){
     console.log(error);
+    alert(" Error in fatching data .Make sure youre connected with secure network")
   }
 }
 // getdata();
